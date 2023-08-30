@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(174.2deg, rgba(255, 244, 228, 1) 7.1%, rgba(240, 246, 238, 1) 67.4%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav_bar {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    align-items: center;
+}
+
+.links_row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.link_item {
+    list-style: none;
+}
+
+.link_item a {
+    font-size: 1.2rem;
+    color: #000;
+    transition: all .3s ease-in-out;
+}
+
+.link_item a:hover {
+    color: #2F2F2F;
+}
+
+.button_github {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    width: 120px;
+    padding: 1rem;
+    border-radius: 3rem;
+    transition: all .3s ease-in-out;
+}
+
+.button_github:hover {
+    background-color: #2F2F2F;
+}
+
+.container {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 6rem;
+}
+
+.input_container {
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.input_container input {
+    width: 450px;
+    padding: 0.75rem;
+    border-radius: 7rem;
+    outline: none;
+    border: 1px solid #000;
+}
+
+.input_container button {
+    width: 120px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color: #FFF;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 7rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+
+.input_container button:hover {
+    transform: scale(0.95);
+}
+
+.result {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.result_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.short-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    background-color: #FFF;
+    padding: 1.5rem;
+    border-radius: 7rem;
+    -webkit-box-shadow: -7px -8px 54px -27px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px -8px 54px -27px rgba(0,0,0,0.75);
+    box-shadow: -7px -8px 54px -27px rgba(0,0,0,0.75);
+}
+
+#copy_button {
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    transition: all .2s ease-in-out;
+}
+
+#copy_button i{
+    color: #FFF;
+    font-size: 1.2rem;
+}
+
+#copy_button:hover {
+    transform: scale(0.95);
+}

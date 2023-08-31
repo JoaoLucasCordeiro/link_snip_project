@@ -87,6 +87,13 @@ a {
     border-radius: 7rem;
     outline: none;
     border: 1px solid #000;
+    background: transparent;
+    color: #4158D0;
+    transition: all .3s ease-in-out;
+}
+
+.input_container input:focus {
+    border: 1px solid #4158D0;
 }
 
 .input_container button {

@@ -12,46 +12,36 @@
 
 <body>
 
-
-
     <main>
-
         <nav class="nav_bar">
             <ul class="links_row">
                 <li class="link_item">
                     <a href="">Sobre o projeto</a>
                 </li>
-                <a class="button_github" href="https://github.com/JoaoLucasCordeiro" target="_blank">
+                <a class="button_github" href="https://github.com/JoaoLucasCordeiro/linkSnip_project" target="_blank">
                     GitHub
                 </a>
             </ul>
         </nav>
 
-
-
         <section class="container">
-
             <h1 class="title">Link Snip</h1>
             <span>Abaixo, insira o link que você deseja encurtar</span>
             <div class="input_container">
-                <input type="text" id="link_input">
+                <input type="text" id="link_input" >
                 <button id="button_action_input">Encurtar</button>
             </div>
-
-
         </section>
 
-
         <section class="result">
-            <div class="result_container">
+            <div class="result_container" id="result_container">
                 <h2>Seu link:</h2>
                 <div class="short-links">
                     <button id="copy_button"><i class="fa-solid fa-copy"></i></button>
-                    <p>https://encurtador.com.br/ekrsZ</p>
+                    <p id="short_link"></p>
                 </div>
             </div>
         </section>
-
     </main>
 
     <script src="https://kit.fontawesome.com/721fa646a8.js" crossorigin="anonymous"></script>

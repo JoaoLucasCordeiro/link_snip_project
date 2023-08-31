@@ -124,6 +124,8 @@ a {
 }
 
 .result_container {
+    transition: all .3s ease-in-out;
+    opacity: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -134,8 +136,9 @@ a {
 .short-links {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 1.5rem;
+    width: 240px;
 
     background-color: #FFF;
     padding: 0.35rem;
@@ -148,6 +151,8 @@ a {
 
 .short-links p {
     font-size: 0.85rem;
+    margin-right: 4rem;
+    color: #4158D0;
 }
 
 #copy_button {
